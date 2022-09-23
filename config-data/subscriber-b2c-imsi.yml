@@ -16,8 +16,8 @@ spring:
   # DB
   # ===============================
   datasource:
-    url: jdbc:oracle:thin:@127.0.0.1:1521:ORCL
-    driverClassName: oracle.jdbc.OracleDriver
+    url: jdbc:oracle:thin:@localhost:1521:orcl
+    driver-class-name: oracle.jdbc.driver.OracleDriver
     username: rrbolivarna
     password: Soporte
 
@@ -28,7 +28,6 @@ spring:
     show-sql: true
     hibernate:
       ddl-auto: update
-    database-platform: org.hibernate.dialect.H2Dialect
     properties:
       hibernate:
         show_sql: true

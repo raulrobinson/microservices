@@ -19,7 +19,7 @@ spring:
     url: jdbc:oracle:thin:@127.0.0.1:1521:ORCL
     driverClassName: oracle.jdbc.OracleDriver
     username: rrbolivarna
-    password: Soporte1
+    password: Soporte
 
   # ===============================
   # JPA / HIBERNATE

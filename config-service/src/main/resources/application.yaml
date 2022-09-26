@@ -6,7 +6,7 @@ spring:
       server:
         git:
           default-label: zipkin-sleuth
-          uri: https://github.com/cavanosa/microservices-tutorial
+          uri: https://github.com/raulrobinson/microservices
           search-paths: config-data
   application:
     name: config-service
